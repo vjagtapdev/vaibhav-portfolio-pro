@@ -1,0 +1,26 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A10"/>
+      <stop offset="0.6" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="g" x1="240" y1="140" x2="980" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.80"/>
+    </linearGradient>
+    <filter id="b" x="-40" y="-40" width="1280" height="780" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="26"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <g filter="url(#b)">
+    <rect x="260" y="170" width="680" height="380" rx="190" fill="url(#g)"/>
+  </g>
+  <rect x="90" y="90" width="1020" height="520" rx="22" stroke="white" stroke-opacity="0.10"/>
+  <rect x="130" y="140" width="360" height="22" rx="11" fill="white" fill-opacity="0.12"/>
+  <rect x="130" y="184" width="580" height="14" rx="7" fill="white" fill-opacity="0.10"/>
+  <rect x="130" y="224" width="420" height="14" rx="7" fill="white" fill-opacity="0.08"/>
+  <rect x="130" y="280" width="940" height="300" rx="18" fill="white" fill-opacity="0.05"/>
+</svg>
+
