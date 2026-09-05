@@ -66,14 +66,14 @@ export const projects = [
     },
   },
   {
-    title: 'Job Tracker Dashboard',
+    title: 'Fashion E-Commerce Website',
     description:
-      'Track applications with filters, analytics, and a clean dashboard experience.',
-    tech: ['React', 'Tailwind', 'Charts'],
+      'A modern e-commerce platform for fashion products with a clean and responsive design.',
+    tech: ['React', 'Tailwind', 'JavaScript'],
     image: project2,
     links: {
-      github: 'https://github.com/',
-      live: 'https://example.com',
+      github: 'https://github.com/vjagtapdev/janvi-fashion-boutique',
+      live: 'https://janvi-fashion-boutique.vercel.app/',
     },
   },
   {
